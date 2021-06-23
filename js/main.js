@@ -20,6 +20,7 @@ $('.heroes__slider-text').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
    asNavFor: '.heroes__slider-img',
-  fade: true,
+   fade: true,
+  arrows:false
 });
 });

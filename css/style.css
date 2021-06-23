@@ -215,7 +215,7 @@ z-index: -1;
    max-width: 775px;
 }
 
-.heroes__text{
+.heroes__slider-text{
    max-width: 350px;
 }
 
@@ -226,17 +226,34 @@ z-index: -1;
    transform: translateY(-50%);
    border:none;
    border-color: transparent;
+   z-index: 5;
+   cursor: pointer;
 
 }
 .slick-prev{
 left: 38px;
+background-color: transparent;
 }
 
 .slick-next{
 right: 38px;
+background-color: transparent;
 }
 
 
 .heroes-name{
-   
+   font-style: italic;
+font-weight: 300;
+font-size: 72px;
+line-height: 84px;
+color: #85CCDC;
+margin-bottom: 44px;
+}
+
+.heroes__text p{
+margin-bottom: 15px;
+}
+.copy{
+   padding: 0 14px 15px;
+   text-align: center;
 }
