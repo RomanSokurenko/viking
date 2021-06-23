@@ -12,7 +12,8 @@ $(function(){
   slidesToShow: 1,
   slidesToScroll: 1,
   asNavFor: '.heroes__slider-text',
-       prevArrow: '<button class="slick-btn slick-prev"><img src="./images/arrow-l.png" alt="prev"></button>'
+  prevArrow: '<button class="slick-btn slick-prev"><img src="./images/arrow-l.png" alt="prev"></button>',
+  nextArrow: '<button class="slick-btn slick-next"><img src="./images/arrow-r.png" alt="next"></button>'
   
 });
 $('.heroes__slider-text').slick({
