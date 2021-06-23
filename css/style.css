@@ -219,7 +219,24 @@ z-index: -1;
    max-width: 350px;
 }
 
+
+.slick-btn{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   border:none;
+   border-color: transparent;
+
+}
+.slick-prev{
+left: 38px;
+}
+
+.slick-next{
+right: 38px;
+}
+
+
 .heroes-name{
    
 }
-
