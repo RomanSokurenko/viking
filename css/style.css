@@ -274,11 +274,11 @@ margin-bottom: 15px;
 
 /* СЕЗОН-1 */
 .page-header{
-background-image: url('../images/season-1-bg.jpg');
+background-image: url('../images/header-bg.jpg');
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
-height: 90vh;
+height: 100vh;
 position: relative;
 }
 
@@ -512,18 +512,19 @@ line-height: 32px;
    .seasons__item{
      height: 160px;
   }
-}
-
-@media (max-width:374px){
-    .seasons__item{
-     height: 203px;
-  }
   .slick-next {
      right: 0;
   }
   .slick-prev{
      left: 0;
   }
+}
+
+@media (max-width:374px){
+    .seasons__item{
+     height: 203px;
+  }
+  
 }
 
 
