@@ -183,7 +183,7 @@ opacity: 1;
 }
 
 .seasons__item::before{
-   content: "0" counter(counter);
+   content: '0' counter(counter);
    counter-increment: counter;
    position: absolute;
    font-weight: bold;
@@ -454,7 +454,7 @@ line-height: 32px;
       padding:   10px 0;
    }
    .logo{
-      padding-top: 21vh;
+      padding-top: 3vh;
    }
 
    .page-logo{
@@ -517,6 +517,12 @@ line-height: 32px;
 @media (max-width:374px){
     .seasons__item{
      height: 203px;
+  }
+  .slick-next {
+     right: 0;
+  }
+  .slick-prev{
+     left: 0;
   }
 }
 
